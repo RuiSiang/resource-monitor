@@ -8,6 +8,13 @@ npm run build
 npm run start
 ```
 
+## Configuration
+
+### Environmental Variables
+
+`PORT`: port to use for socket subscription
+`INTERVAL`: stat broadcast interval (seconds)
+
 ## Deploy from docker image
 
 ```
