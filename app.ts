@@ -48,11 +48,11 @@ const cronJob = new CronJob(
               )
             }, 1)) *
           100
-        ).toFixed(2),
+        ).toFixed(4),
         memUtil: (
           ((os.totalmem() - os.freemem()) / os.totalmem()) *
           100
-        ).toFixed(2),
+        ).toFixed(4),
         uptime: os.uptime().toFixed(0),
       })
     )

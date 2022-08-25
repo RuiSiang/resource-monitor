@@ -31,8 +31,8 @@ npx ts-node client-example
 
 ```JSON
 {
-  "cpuUtil":"0.02",
-  "memUtil":"8.93",
+  "cpuUtil":"0.0222",
+  "memUtil":"8.9344",
   "uptime":"10449"
 }
 ```
