@@ -39,6 +39,6 @@ npx ts-node client-example
 
 | Attribute | Type              | Description                     |
 | --------- | ----------------- | ------------------------------- |
-| cpuUtil   | float, 2 decimals | cpu utilization (percentage)    |
-| memUtil   | float, 2 decimals | memory utilization (percentage) |
+| cpuUtil   | float, 4 decimals | cpu utilization (percentage)    |
+| memUtil   | float, 4 decimals | memory utilization (percentage) |
 | uptime    | integer           | system uptime (seconds)         |
